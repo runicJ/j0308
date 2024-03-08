@@ -11,9 +11,9 @@ public class Cc extends Aa {
 	public void modCc() {
 		System.out.println("이곳은 Cc클래스의 modCc메소도 입니다.");
 	}
-
-	@Override  // 부모가 가지고 있던 것
-	public void modHH(int a, int b) {
-		System.out.println("두수의 합 : " + (a + b));
-	}
+//
+//	@Override  // 부모가 가지고 있던 것
+//	public void modHH(int a, int b) {
+//		System.out.println("두수의 합 : " + (a + b));
+//	}
 }
