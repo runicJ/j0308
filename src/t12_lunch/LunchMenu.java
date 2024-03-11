@@ -10,5 +10,6 @@ public interface LunchMenu {
 	int MILK = 500;
 	int ALMOND = 700;
 	
-	void setPrice(int LunchMenu); 
+	int basicPrice();
+	void snackPrice();
 }

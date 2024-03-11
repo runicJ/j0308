@@ -11,12 +11,18 @@ public class LunchRun {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("간식을 선택하세요");
-		int snack = sc.nextInt();
+		int price = 0;
+		int tot = 0;
 		
 		while(true)	{
-			for(int i=0; i<snacks.length; i++) {
-				
+			System.out.println("(1.요플레 2.바나나 3.우유 4.아몬드 0.선택완료) ==>");
+			int opt = sc.nextInt();
+			if(opt < 0 || opt > 4) {
+				if(opt == 0) break;
+				System.out.println("선택 가능한 코드번호를 입력하세요.");
+				continue;
 			}
 		}
+		sc.close();
 	}
 }
