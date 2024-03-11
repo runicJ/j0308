@@ -13,6 +13,6 @@ public class Aa {
 	// 원넓이
 	public void areaCircle(int r) {
 		double area = r * r * 3.14;
-		System.out.println("반지름 "+r+"인 원넓이는? " + area);
+		System.out.println("1. 반지름 "+r+"인 원넓이는? " + area);
 	}
 }

@@ -1,6 +1,6 @@
 package t10_abstract3;
 
-public abstract class Phone {
+public abstract class Phone {  // 추상클래스(실행할 내용x) 일반메소드 포함 가능
 	private String name;
 	
 	public Phone(String name) {

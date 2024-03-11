@@ -1,5 +1,5 @@
-package 과제;
-
-public class SeoulBunsik extends Bonsa{
-
-}
+//package 과제;
+//
+//public class SeoulBunsik extends Bonsa{
+//	
+//}
