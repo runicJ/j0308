@@ -5,9 +5,11 @@ public class Test2Run {
 		// new Test2();  //생성x, 인터페이스를 생성하려면? 익명구현 객체를 사용해서 가능하다.
 	
 		// 익명구현객체에 구현할 메소드를 만들어준다.
-		Test2 t22 = new Test2() {  // 실행블록{익명구현객체}
+		Test2 t22 = new Test2() {  // 로컬블록 실행블록{익명구현객체}
 			int atom = 200;
-			public void abc() {  // Test2의 abc()와 같거나 커야함
+			
+			@Override
+			public void abc() {  // Test2의 abc()와 같거나 커야함  // 구현class 따로 생성 없이 익명객체 만들어서 중괄호 안에서 재정의
 				int temp = atom;
 				System.out.println("이곳은 Test2Run 클래스의 t22익명객체 안의 abc()메소드 입니다.");
 			}

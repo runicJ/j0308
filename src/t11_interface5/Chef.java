@@ -1,6 +1,6 @@
 package t11_interface5;
 
-public class Chef implements Action {
+public class Chef implements Action {  // 구현객체
 
 	@Override
 	public void catching() {}

@@ -3,7 +3,7 @@ package t10_abstractEx;
 @SuppressWarnings("unused")
 public abstract class Bonsa {  // extends object(모든 클래스의 최상위 객체) 생략
 	public String shopName;  // setter가 없으므로 public으로 바꿈
-	public int kimchi;  // alt + shift + a
+	public int kimchi;  // alt + shift + a 단어 일괄 변경
 	public int budae;
 	public int bibim;
 	public int sundae;
